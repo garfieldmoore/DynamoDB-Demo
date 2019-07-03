@@ -1,0 +1,98 @@
+{
+  "Orders": [
+    {
+      "PutRequest": {
+        "Item": {
+          "pk":{"S": "1"},
+          "sk":{"S": "Customer"},
+          "name": {"S": "Mikhal Tal"},
+          "data": {"S": " "}
+        }
+      }
+    },
+    {
+        "PutRequest": {
+          "Item": {
+            "pk":{"S": "2"},
+            "sk":{"S": "Customer"},
+            "name": {"S": "Miguel Nadjorf"},
+            "data": {"S": " "}
+          }
+        }
+    },
+    {
+        "PutRequest": {
+          "Item": {
+            "pk":{"S": "3"},
+            "sk":{"S": "Customer"},
+            "name": {"S": "Alexander Alekhine"},
+            "data": {"S": " "}
+          }
+        }
+    },
+    {
+        "PutRequest": {
+          "Item": {
+            "pk":{"S": "6"},
+            "sk":{"S": "Customer"},
+            "name": {"S": "Mikhail Botvinik"},
+            "data": {"S": " "}
+          }
+        }
+    },
+    {
+        "PutRequest": {
+          "Item": {
+            "pk":{"S": "4"},
+            "sk":{"S": "Customer"},
+            "name": {"S": "Garry Kasparov"},
+            "data": {"S": " "}
+          }
+        }
+    },
+    {
+        "PutRequest": {
+          "Item": {
+            "pk":{"S": "1"},
+            "sk":{"S": "Products"},
+            "data": {"S": " "},
+            "name": {"S": "Raspberry Pi 3"},
+            "unitPrice": {"N": "34.99"}
+          }
+        }
+    },
+    {
+        "PutRequest": {
+          "Item": {
+            "pk":{"S": "1"},
+            "sk":{"S": "Suppliers"},
+            "data": {"S": " "},
+            "name": {"S": "Andy Widgets"},
+	          "VAT #": {"S": "123456789"}
+          }
+        }
+    },
+    {
+        "PutRequest": {
+          "Item": {
+            "pk":{"S": "2"},
+            "sk":{"S": "Suppliers"},
+            "data": {"S": " "},
+            "name": {"S": "Moore Widgets"},
+            "VAT #": {"S": "987654321"}
+          }
+        }
+    },
+    {
+        "PutRequest": {
+          "Item": {
+            "pk":{"S": "2"},
+            "sk":{"S": "Products"},
+            "data": {"S": " "},
+            "name": {"S": "Raspberry Pi Nano"},
+            "unitPrice": {"N": "21.99"}
+          }
+        }
+    }
+   ]
+}

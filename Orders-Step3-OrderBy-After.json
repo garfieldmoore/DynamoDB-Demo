@@ -1,0 +1,138 @@
+{
+  "Orders": [
+    {
+      "PutRequest": {
+        "Item": {
+          "pk":{"S": "1"},
+          "sk":{"S": "Customers"},
+          "data": {"S": "UK#Cambridgeshire#PE2 L4W"},
+          "name": {"S": "Mikhal Tal"},
+          "houseName": {"S": "23"},
+          "addressLine1": {"S": "Perter Lane"},
+          "addressLine2": {"S":"Cambridgeshire"},
+          "postCode":{"S": "PE2 L4W"},
+          "country":{"S": "UK"}
+        }
+      }
+    },
+    {
+        "PutRequest": {
+          "Item": {
+            "pk":{"S": "2"},
+            "sk":{"S": "Customers"},
+            "data": {"S": "Poland#Warsaw#XSE123"},
+            "name": {"S": "Miguel Nadjorf"},
+            "houseName":{"S":"142"},
+            "addressLine1":{"S": "Alekhine Lane"},
+            "addressLine2":{"S": "Warsaw"},
+            "postCode":{"S": "XSE123"},
+            "country":{"S": "Poland"}
+          }
+        }
+    },
+    {
+        "PutRequest": {
+          "Item": {
+            "pk":{"S": "3"},
+            "sk":{"S": "Customers"},
+            "data": {"S": "Russia#Moscow#XWZ123"},
+            "name": {"S": "Alexander Alekhine"},
+            "houseName":{"S":"2327"},
+            "addressLine1":{"S": "St Peters Squarre"},
+            "addressLine2":{"S":"Moscow"},
+            "postCode":{"S": "XWZ123"},
+            "country":{"S": "Russia"}
+          }
+        }
+    },
+    {
+        "PutRequest": {
+          "Item": {
+            "pk":{"S": "6"},
+            "sk":{"S": "Customers"},
+            "data": {"S": "Holland#Amsterdam#LLSJHSK"},
+            "name": {"S": "Mikhail Botvinik"},
+            "houseName":{"S":"2"},
+            "addressLine1":{"S":"Analysis Lane"},
+            "addressLine2":{"S":"Amsterdam"},
+            "postCode":{"S": "LLSJHSK"},
+            "country":{"S": "Holland"}
+          }
+        }
+    },
+    {
+        "PutRequest": {
+          "Item": {
+            "pk":{"S": "4"},
+            "sk":{"S": "Customers"},
+            "data": {"S": "UK#Luton#LU1 L4W"},
+            "name": {"S": "Anatoly Karpov"},
+            "houseName":{"S":"127"},
+            "addressLine1":{"S":"Studious Street"},
+            "addressLine2":{"S":"Luton"},
+            "postCode":{"S": "LU1 L4W"},
+            "country":{"S": "UK"}
+          }
+        }
+    },
+    {
+        "PutRequest": {
+          "Item": {
+            "pk":{"S": "5"},
+            "sk":{"S": "Customers"},
+            "data": {"S": "America#New York#WW1 XDC"},
+            "name": {"S": "Garry Kasparov"},
+            "houseName":{"S":"254"},
+            "addressLine1":{"S":"Manhattan Place"},
+            "addressLine2":{"S":"New York"},
+            "postCode":{"S": "WW1 XDC"},
+            "country":{"S": "America"}
+          }
+        }
+    },
+    {
+        "PutRequest": {
+          "Item": {
+            "pk":{"S": "1"},
+            "sk":{"S": "Products"},
+            "data": {"S": " "},
+            "name": {"S": "Raspberry Pi 3"},
+            "unitPrice": {"N": "34.99"}
+          }
+        }
+    },
+    {
+        "PutRequest": {
+          "Item": {
+            "pk":{"S": "1"},
+            "sk":{"S": "Suppliers"},
+            "data": {"S": " "},
+            "name": {"S": "Andy Widgets"},
+	          "VAT #": {"S": "123456789"}
+          }
+        }
+    },
+    {
+        "PutRequest": {
+          "Item": {
+            "pk":{"S": "2"},
+            "sk":{"S": "Suppliers"},
+            "data": {"S": " "},
+            "name": {"S": "Moore Stuff"},
+            "VAT #": {"S": "987654321"}
+          }
+        }
+    },
+    {
+        "PutRequest": {
+          "Item": {
+            "pk":{"S": "2"},
+            "sk":{"S": "Products"},
+            "data": {"S": " "},
+            "name": {"S": "Raspberry Pi Nano"},
+            "unitPrice": {"N": "21.99"}
+          }
+        }
+    }
+   ]
+}

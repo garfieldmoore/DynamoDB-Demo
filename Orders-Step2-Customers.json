@@ -1,0 +1,54 @@
+{
+  "Orders": [
+    {
+      "PutRequest": {
+        "Item": {
+          "pk":{"S": "1"},
+          "sk":{"S": "Customer"},
+          "name": {"S": "Mikhal Tal"},
+          "data": {"S": " "}
+        }
+      }
+    },
+    {
+        "PutRequest": {
+          "Item": {
+            "pk":{"S": "2"},
+            "sk":{"S": "Customer"},
+            "name": {"S": "Miguel Nadjorf"},
+            "data": {"S": " "}
+          }
+        }
+    },
+    {
+        "PutRequest": {
+          "Item": {
+            "pk":{"S": "3"},
+            "sk":{"S": "Customer"},
+            "name": {"S": "Alexander Alekhine"},
+            "data": {"S": " "}
+          }
+        }
+    },
+    {
+        "PutRequest": {
+          "Item": {
+            "pk":{"S": "6"},
+            "sk":{"S": "Customer"},
+            "name": {"S": "Mikhail Botvinik"},
+            "data": {"S": " "}
+          }
+        }
+    },
+    {
+        "PutRequest": {
+          "Item": {
+            "pk":{"S": "4"},
+            "sk":{"S": "Customer"},
+            "name": {"S": "Garry Kasparov"},
+            "data": {"S": " "}
+          }
+        }
+    }
+  ]
+}
