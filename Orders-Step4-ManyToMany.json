@@ -178,7 +178,7 @@
         "Item": {
           "pk":{"S": "OrderID_1"},
           "sk":{"S": "Orders"},
-          "data": {"S": "2019-03-27#"},
+          "data": {"S": "2019-03-25#"},
           "orderDate": {"S": "2019-03-27"},
           "expecteDate":{"S": "2019-03-01"},
           "customerId":{"S": "6"},
@@ -237,7 +237,7 @@
       "PutRequest": {
         "Item": {
           "pk":{"S": "OrderID_2"},
-          "sk":{"S": "ProductID_1"},
+          "sk":{"S": "ProductID_2"},
           "data": {"S": "30.99"},
           "quantity": {"S": "1"},
           "price":{"S":"30.99"}
